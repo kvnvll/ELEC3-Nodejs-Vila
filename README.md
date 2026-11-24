@@ -1,25 +1,57 @@
+# ELEC3-NodeJS-Vila
 
-# ELEC3 - Node.js Activities
-
-**Student:** VILA, KEVIN V.  
+**Full Name:** Kevin V. Vila  
 **Section:** IV-BSIT C  
-**Subject:** ELEC 3 - Node.js
+**Course Code:** ELEC 3 - Node.js  
+**Course Title:** Node.js Programming
 
-## About This Repository
+## Set 1 Activities
 
-This repository contains my Node.js activities and exercises for ELEC 3. It includes basic Node.js programming, modular programming, file management, and server development.
+| Activity | Description | Folder |
+|---|---|---|
+| N1 | Node.js Setup | [n1-setup](set1/n1-setup/) |
+| N2 | Modular Calculator | [n2-calculator](set1/n2-calculator/) |
+| N3 | File Manager | [n3-file-manager](set1/n3-file-manager/) |
 
-## Activities
+## Set 2 Activities
 
-### Set 1
+| Activity | Description | Folder |
+|---|---|---|
+| N4 | HTTP Server | To be completed |
 
-- **N1 - Node.js Setup:** Initial project setup and configuration.
-- **N2 - Modular Calculator:** A calculator using custom modules and command-line arguments.
-- **N3 - File Manager:** A program that creates, reads, updates, deletes, and lists text files.
+## How to Run
 
-### Set 2
+Navigate to the repository folder in your terminal.
 
-- **N4 - HTTP Server:** To be completed.
+**N1 - Node.js Setup**
+```powershell
+cd set1/n1-setup
+npm start
+```
+
+**N2 - Modular Calculator**
+```powershell
+cd set1/n2-calculator
+node index.js add 12 8
+node index.js subtract 12 8
+node index.js multiply 12 8
+node index.js divide 12 8
+node index.js average 80 90 85
+```
+
+**N3 - File Manager**
+```powershell
+cd set1/n3-file-manager
+node index.js create notes.txt Hello World
+node index.js read notes.txt
+node index.js list
+node index.js update notes.txt Updated Content
+node index.js delete notes.txt
+```
+
+## Screenshots
+
+Screenshots showing the output and testing of each activity are stored in their respective folders.
 
 ## Technologies Used
 
@@ -27,21 +59,11 @@ This repository contains my Node.js activities and exercises for ELEC 3. It incl
 - JavaScript
 - Visual Studio Code
 - PowerShell
+- Git
+- GitHub
 
-## How to Run
+## Repository Organization
 
-1. Open the project folder in VS Code.
-2. Open the terminal.
-3. Navigate to the activity folder.
-4. Run the appropriate JavaScript file using Node.js.
+This repository contains my Node.js activities and exercises for ELEC 3. The activities are organized into separate folders based on their activity number. Each activity contains its corresponding source code and other necessary files.
 
-Example:
-
-```bash
-node index.js add 12 8
-```
-
-## Author
-
-VILA, KEVIN V.  
-IV-BSIT C
+The project demonstrates basic Node.js programming, modular programming, command-line operations, and file management.
