@@ -1,0 +1,18 @@
+{
+  "name": "n1-setup",
+  "version": "1.0.0",
+  "description": "Node.js project setup and package management activity",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "VILA, KEVIN V.",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
