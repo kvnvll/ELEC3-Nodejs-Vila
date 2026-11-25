@@ -5,6 +5,8 @@
 **Course Code:** ELEC 3 - Node.js  
 **Course Title:** Node.js Programming
 
+---
+
 ## Set 1 Activities
 
 | Activity | Description | Folder |
@@ -13,10 +15,12 @@
 | N2 | Modular Calculator | `set1/n2-calculator` |
 | N3 | File Manager | `set1/n3-file-manager` |
 
+---
+
 ## N1 - Node.js Setup
 
 **Description:**  
-This activity demonstrates how to set up and run a basic Node.js project using npm.
+This activity demonstrates how to set up and run a basic Node.js project using npm. It also displays the student's personal information and course details in the terminal.
 
 **How to Run:**
 
@@ -43,7 +47,7 @@ ELEC 3 - Node.js Programming
 ## N2 - Modular Calculator
 
 **Description:**  
-This activity demonstrates modular programming in Node.js by separating calculator operations and formatting into different JavaScript files.
+This activity demonstrates modular programming in Node.js by separating calculator operations, formatting, and the main program into different JavaScript files.
 
 **How to Run:**
 
@@ -68,14 +72,14 @@ node index.js divide 12 8
 
 **Screenshot:**
 
-![N2 Output](set1/n2-calculator/screenshots/screenshot_n2.png)
+![N2 Output](set1/n2-calculator/screenshots/screenshot.n2.png)
 
 ---
 
 ## N3 - File Manager
 
 **Description:**  
-This activity demonstrates file management operations using Node.js. It allows users to create, read, update, list, and delete text files.
+This activity demonstrates file management operations using Node.js. It allows users to create, read, update, list, and delete text files through the command line.
 
 **How to Run:**
 
@@ -85,31 +89,31 @@ cd set1/n3-file-manager
 
 **Examples:**
 
-Create a file:
+**1. Create a file:**
 
 ```powershell
-node index.js create test.txt Hello Node.js
+node index.js create test.txt This is my N3 test file
 ```
 
-Read a file:
+**2. Read a file:**
 
 ```powershell
 node index.js read test.txt
 ```
 
-Update a file:
+**3. Update a file:**
 
 ```powershell
-node index.js update test.txt Updated content
+node index.js update test.txt This is the updated version
 ```
 
-List all files:
+**4. List all files:**
 
 ```powershell
 node index.js list
 ```
 
-Delete a file:
+**5. Delete a file:**
 
 ```powershell
 node index.js delete test.txt
@@ -132,6 +136,8 @@ node index.js delete test.txt
 
 ## Repository Organization
 
-The repository contains my Node.js activities and exercises for ELEC 3. Each activity is organized into its own folder with the necessary JavaScript files and screenshots.
+The repository contains my Node.js activities and exercises for ELEC 3. Each activity is organized into its own folder with the corresponding source code and screenshots.
 
 These activities cover basic Node.js setup, modular programming, calculator operations, and file management.
+
+---
