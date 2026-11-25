@@ -1,4 +1,4 @@
-# ELEC3-NodeJS-Vila
+﻿# ELEC3-NodeJS-Vila
 
 **Full Name:** Kevin V. Vila  
 **Section:** IV-BSIT C  
@@ -72,7 +72,7 @@ node index.js divide 12 8
 
 **Screenshot:**
 
-![N2 Output](set1/n2-calculator/screenshots/screenshot.n2.png)
+![N2 Output](set1/n2-calculator/screenshots/screenshot_n2.png)
 
 ---
 
