@@ -9,49 +9,117 @@
 
 | Activity | Description | Folder |
 |---|---|---|
-| N1 | Node.js Setup | [n1-setup](set1/n1-setup/) |
-| N2 | Modular Calculator | [n2-calculator](set1/n2-calculator/) |
-| N3 | File Manager | [n3-file-manager](set1/n3-file-manager/) |
+| N1 | Node.js Setup | `set1/n1-setup` |
+| N2 | Modular Calculator | `set1/n2-calculator` |
+| N3 | File Manager | `set1/n3-file-manager` |
 
-## Set 2 Activities
+## N1 - Node.js Setup
 
-| Activity | Description | Folder |
-|---|---|---|
-| N4 | HTTP Server | To be completed |
+**Description:**  
+This activity demonstrates how to set up and run a basic Node.js project using npm.
 
-## How to Run
+**How to Run:**
 
-Navigate to the repository folder in your terminal.
-
-**N1 - Node.js Setup**
 ```powershell
 cd set1/n1-setup
 npm start
 ```
 
-**N2 - Modular Calculator**
+**Example Output:**
+
+```text
+Node.js Project Successfully Started!
+Name: VILA, KEVIN V.
+Section: IV-BSIT C
+ELEC 3 - Node.js Programming
+```
+
+**Screenshot:**
+
+![N1 Output](set1/n1-setup/screenshots/screenshot_n1.png)
+
+---
+
+## N2 - Modular Calculator
+
+**Description:**  
+This activity demonstrates modular programming in Node.js by separating calculator operations and formatting into different JavaScript files.
+
+**How to Run:**
+
 ```powershell
 cd set1/n2-calculator
 node index.js add 12 8
+```
+
+**Example Output:**
+
+```text
+12 + 8 = 20
+```
+
+**Other Examples:**
+
+```powershell
 node index.js subtract 12 8
 node index.js multiply 12 8
 node index.js divide 12 8
-node index.js average 80 90 85
 ```
 
-**N3 - File Manager**
+**Screenshot:**
+
+![N2 Output](set1/n2-calculator/screenshots/screenshot_n2.png)
+
+---
+
+## N3 - File Manager
+
+**Description:**  
+This activity demonstrates file management operations using Node.js. It allows users to create, read, update, list, and delete text files.
+
+**How to Run:**
+
 ```powershell
 cd set1/n3-file-manager
-node index.js create notes.txt Hello World
-node index.js read notes.txt
-node index.js list
-node index.js update notes.txt Updated Content
-node index.js delete notes.txt
 ```
 
-## Screenshots
+**Examples:**
 
-Screenshots showing the output and testing of each activity are stored in their respective folders.
+Create a file:
+
+```powershell
+node index.js create test.txt Hello Node.js
+```
+
+Read a file:
+
+```powershell
+node index.js read test.txt
+```
+
+Update a file:
+
+```powershell
+node index.js update test.txt Updated content
+```
+
+List all files:
+
+```powershell
+node index.js list
+```
+
+Delete a file:
+
+```powershell
+node index.js delete test.txt
+```
+
+**Screenshot:**
+
+![N3 Output](set1/n3-file-manager/Screenshots/screenshot_n3.png)
+
+---
 
 ## Technologies Used
 
@@ -64,6 +132,6 @@ Screenshots showing the output and testing of each activity are stored in their 
 
 ## Repository Organization
 
-This repository contains my Node.js activities and exercises for ELEC 3. The activities are organized into separate folders based on their activity number. Each activity contains its corresponding source code and other necessary files.
+The repository contains my Node.js activities and exercises for ELEC 3. Each activity is organized into its own folder with the necessary JavaScript files and screenshots.
 
-The project demonstrates basic Node.js programming, modular programming, command-line operations, and file management.
+These activities cover basic Node.js setup, modular programming, calculator operations, and file management.
